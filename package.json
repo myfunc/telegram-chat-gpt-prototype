@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "esno": "^4.7.0",
+    "grammy": "^1.21.1",
+    "openai": "^4.28.4",
+    "telegraf": "^4.16.3",
+    "ts-node": "^10.9.2"
+  },
+  "name": "voicerecognition",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "esno ./src/telegramBot.ts"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
